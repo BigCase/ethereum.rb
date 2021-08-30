@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec", "~> 3.5"
   spec.add_development_dependency "pry", "~> 0.10"
-  spec.add_development_dependency "eth", "~> 0.4"
+  spec.add_development_dependency "eth", git: => "https://github.com/BigCase/ruby-eth.git"
 
   spec.add_dependency "activesupport", ">= 4.0"
   spec.add_dependency "digest-sha3-patched-ruby-3", ">= 1.1.1"
